@@ -8,3 +8,8 @@ cmake .
 make
 sudo make install
 
+cd ..
+rm tmux-mem-cpu-load -rf
+cd ..
+tmux
+
