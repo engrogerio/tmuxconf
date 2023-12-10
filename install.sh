@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# install TPM
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
 # install powerline
 git clone https://github.com/thewtex/tmux-mem-cpu-load
 cp tmux.conf ~/.tmux.conf
